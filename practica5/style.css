@@ -1,0 +1,80 @@
+@keyframes scroll {
+  0% {
+    width: 0;
+    background-color: aqua;
+  }
+  100% {
+    width: 100%;
+    background-color: red;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  30% {
+    scale: .5;
+    opacity: .2;
+  }
+  50% {
+    scale: 1;
+    opacity: 1;
+  }
+  60% {
+    scale: 1;
+    opacity: 1;
+  }
+  70% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 0;
+    opacity: 0;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:bisque;
+}
+h1 {
+  text-align: center;
+  color: #333333;
+}
+p {
+  text-indent: 20px;
+  line-height: 1.5;
+  font-size: 32px;
+  padding: 2%;
+  margin: 1% 5%;
+  background-color:antiquewhite;
+  animation: reveal both linear;
+  animation-timeline: view();
+}
+.dialog {
+  font-weight:bold;
+  font-style: italic;
+  color:chocolate;
+}
+
+.title {
+  background-color: burlywood;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 48px;
+  margin: 2% 35%;
+  position: fixed;
+}
+
+.progress_bar {
+  margin: 0;
+  height: 10px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  animation: scroll auto linear;
+  animation-timeline: scroll(block);
+}

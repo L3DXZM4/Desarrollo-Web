@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Items {
+  width: 16.6%;
+}
+
+.Plan {
+  width: 33.3%;
+  padding: 5%;
+  font-size: 32px;
+  width: 33.3%;
+  text-align: center;
+}

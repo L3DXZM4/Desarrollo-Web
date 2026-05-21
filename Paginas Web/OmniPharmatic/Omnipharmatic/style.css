@@ -1,0 +1,291 @@
+@viewport {
+  zoom: 1;
+  min-zoom: 1;
+  max-zoom: 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@200..700&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+  --primary-color: #690000;
+  --secundary-color: #ff7676;
+  --dark-color: #333333;
+  --light-color: white;
+  --secundary-light-color: #c0c0c0;
+}
+
+body {
+  z-index: 0;
+  height: 150vh;
+}
+
+.cuerpo {
+  font-family: "Bangers", system-ui;
+}
+
+.comictexturediv img {
+  height: auto;
+  width: 100%;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/*Navbar*/
+.navbar-brand img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+/*Encabezado*/
+
+.encabezado {
+  margin-top: 0;
+  font-size: 32px;
+  padding: 1% 0;
+  width: 100%;
+}
+
+.separador {
+  margin: 0;
+  border: solid var(--light-color) 1px;
+  opacity: 1;
+}
+
+.encabezado .nav-link {
+  color: var(--dark-color);
+}
+
+.nav-item {
+  margin: 0 auto;
+}
+
+.encabezado .active {
+  color: var(--secundary-color) !important;
+}
+
+.encabezado .nav-link:hover {
+  color: var(--secundary-color);
+}
+
+.encabezado .carrito {
+  margin-top: 8px;
+  height: 24px;
+  width: 24px;
+}
+
+.burbuja {
+  --radio: 12px;
+  margin-top: -120%;
+  margin-left: 90%;
+  background: red;
+  border-radius: 50%;
+  width: var(--radio);
+  height: var(--radio);
+  text-align: center;
+  font-size: 8px;
+  color: white;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.recomendados {
+  max-width: 100%;
+  margin: 5vh 0;
+}
+
+.recomendadostitle {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.recomendadoshr {
+  opacity: 1;
+  border: solid var(--primary-color);
+  width: 150vh;
+  margin: 0 auto;
+}
+
+.recomendadosprod1 {
+  display: flex;
+}
+
+.recomendadosprod2 {
+  display: flex;
+}
+
+.recomendados .card {
+  margin: 2vh auto;
+}
+
+.card a {
+  margin: 0 35%;
+  border: solid black;
+  background-color: var(--primary-color);
+}
+
+.marcas {
+  display: block;
+  margin: 2vh 0;
+}
+
+.marcastitle {
+  color: var(--primary-color);
+}
+
+.marcashr {
+  opacity: 1;
+  border: solid var(--secundary-color) 2px;
+  width: 50vh;
+  margin: 2vh auto;
+}
+
+.marcas .marcasimg {
+  display: flex;
+}
+
+.marcasimg img {
+  width: 30vh;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+.marcastitle{
+  text-align: center;
+}
+
+.formcomprar {
+  text-align: center;
+  left: 32.5%;
+  top: 12.5%;
+  background-color: var(--secundary-light-color);
+  width: 45vh;
+  height: 50vh;
+  margin: 15vh auto 0 auto;
+  border-radius: 15px;
+  display: block;
+  padding: 1% 5%;
+}
+
+.formcomprar input, .formcomprar button {
+  width: 100%;
+  height: 5vh;
+  border-radius: 15px;
+  margin: 1vh;
+}
+
+.piedepagina {
+  display: block;
+  margin: 15vh 0 0 0;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.piedepagina1 {
+  padding-top: 2%;
+  display: flex;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.piedepagina1izq {
+  display: block;
+  width: 50%;
+  padding: 2%;
+}
+
+.piedepagina1izq h1 {
+  color: var(--secundary-color);
+}
+
+.piedepagina1izq p {
+  color: var(--light-color)
+}
+
+.piedepagina1der {
+  display: block;
+  width: 50%;
+  padding: 0 5%;
+}
+
+.piedepagina1der h1 {
+  color: var(--light-color);
+}
+
+.piedepagina1der input {
+  width: 30vh;
+  height: 4vh;
+  color: var(--light-color);
+  border-radius: 10px;
+  border: solid var(--light-color);
+  background-color: var(--primary-color);
+}
+
+.piedepagina1der button {
+  width: 15vh;
+  height: 5vh;
+  background-color: var(--secundary-color);
+  border: 0;
+  color: var(--light-color);
+}
+
+.piedepagina1der input, .piedepagina1der button {
+  margin: 2vh auto;
+  display: block;
+}
+
+.piedepagina1izq, .piedepagina1der {
+  text-align: center;
+}
+
+.piedepagina hr {
+  opacity: 1;
+  border: solid var(--secundary-light-color) 1px;
+}
+
+.piedepagina2 {
+  text-align: center;
+}
+
+.piedepagina2 hr {
+  opacity: 0.5;
+}
+
+.piedepagina2 p {
+  color: var(--secundary-color);
+  padding: 1%;
+}
+
+@media (max-width:1320px) {
+  .comictexturediv img {
+    height: 100%;
+    width: auto;
+  }
+
+  .marcas .marcasimg {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width:1200px) {
+
+  .recomendadosprod1 {
+    display: block;
+  }
+
+  .recomendadosprod2 {
+    display: block;
+  }
+
+  .marcas .marcasimg {
+    display: block;
+  }
+
+  .card {
+    transform: scale(0.8);
+  }
+}

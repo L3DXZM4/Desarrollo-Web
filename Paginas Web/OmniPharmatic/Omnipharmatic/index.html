@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <title>OmniPharmatic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Assets/logo.webp" type="image/x-icon" />
+    <script src="script.js"></script>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.00, minimum-scale=1.00, maximum-scale=1.00"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="preload"
+      href="https://i.ibb.co/4PhHw3S/producto1.webp"
+      as="image"
+    />
+  </head>
+
+  <body class="cuerpo">
+    <div class="comictexturediv">
+      <img
+        class="comictexture fixed-top"
+        src="Assets/comictexture.webp"
+        alt=""
+      />
+    </div>
+
+    <!--Desde aqui-->
+    <header>
+      <!--Navbar-->
+      <hr class="separador" />
+      <div class="encabezado">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link navbar-brand">
+              <img src="assets/logo.webp" alt="" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recomendados">RECOMENDACIONES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#marcas">MARCAS</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="separador" />
+    </header>
+    <!--Fin Navbar-->
+
+    <!--Inicio Carrusel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.ibb.co/4PhHw3S/producto1.webp" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.ibb.co/VjMJdPN/producto2.webp"
+            class=""
+            loading="eager"
+            alt=""
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.ibb.co/2ybnngb/producto3.webp"
+            class=""
+            loading="eager"
+            alt="."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Fin Carrusel-->
+
+    <!--Recomendados-->
+    <div class="recomendados" id="recomendados">
+      <h1 class="recomendadostitle">Recomendados de OmniPharmatic</h1>
+      <hr class="recomendadoshr" />
+      <div class="recomendadosprod1">
+        <div class="card" style="width: 18rem">
+          <img
+            src="assets/recomendados/1.png"
+            loading="lazy"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body"></div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/recomendados/2.png" class="card-img-top" alt="..." />
+          <div class="card-body"></div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/recomendados/3.png" class="card-img-top" alt="..." />
+          <div class="card-body"></div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/recomendados/4.png" class="card-img-top" alt="..." />
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="recomendadosprod2">
+        <div class="card" style="width: 18rem">
+          <img src="assets/recomendados/5.png" class="card-img-top" alt="..." />
+          <div class="card-body"></div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/recomendados/6.png" class="card-img-top" alt="..." />
+          <div class="card-body"></div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/recomendados/7.png" class="card-img-top" alt="..." />
+          <div class="card-body"></div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/recomendados/8.png" class="card-img-top" alt="..." />
+          <div class="card-body"></div>
+        </div>
+      </div>
+    </div>
+    <!--Fin Recomendados-->
+
+    <!--Nuestras Marcas-->
+    <div class="marcas" id="marcas">
+      <h1 class="marcastitle">Nuestras marcas</h1>
+      <hr class="marcashr" />
+      <div class="marcasimg">
+        <img class="marcasimg" src="assets/marcas/1.png" alt="" />
+        <img class="marcasimg" src="assets/marcas/2.png" alt="" />
+        <img class="marcasimg" src="assets/marcas/3.png" alt="" />
+        <img
+          class="marcasimg formcomprarconfirmarbtn"
+          src="assets/marcas/4.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--Fin Nuestras Marcas-->
+
+    <!--Formulario de compra-->
+    <form class="formcomprar">
+      <h1>Formulario de Compra</h1>
+      <input type="text" required placeholder="nombre comprador" />
+      <input type="text" required placeholder="nombre producto" />
+      <input type="text" required placeholder="direccion" />
+      <input type="number" required placeholder="numero de telefono" />
+      <button href="index.html" class="formcomprarconfirmarbtn">
+        Confirmar
+      </button>
+    </form>
+    <!--Fin Formulario de compra-->
+
+    <!--Pie de pagina-->
+    <div class="piedepagina">
+      <div class="piedepagina1">
+        <div class="piedepagina1izq">
+          <h1>Suscríbete a Nuestro Boletín</h1>
+          <p>Mantente informado de nuevas noticias</p>
+        </div>
+        <div class="piedepagina1der">
+          <form action="">
+            <h1>Correo electronico:</h1>
+            <input
+              type="email"
+              placeholder="Ingrese su correo electronico"
+              required
+            />
+            <button href="index.html">Suscribirme</button>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <div class="piedepagina2">
+        <img src="assets/piedepagina.png" alt="" />
+        <hr />
+        <p>Todos los derechos reservados OmniPharmatic</p>
+      </div>
+    </div>
+    <!--Fin Pie de pagina-->
+
+    <!--Hasta aqui-->
+  </body>
+</html>

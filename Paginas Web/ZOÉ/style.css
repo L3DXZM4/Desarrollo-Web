@@ -1,0 +1,172 @@
+.nav-decoration {
+  background-color: black;
+  height: 4vh;
+}
+
+.buscador {
+  border: solid black 1px;
+  box-shadow: 0px 1px 10px black;
+}
+
+.imgprincipal img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-size: 20px;
+}
+
+.navbar .navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  padding: 5%;
+}
+
+.aboutizq {
+  display: block;
+  width: 70%;
+  text-align: left;
+  padding: 3%;
+}
+
+.aboutder {
+  width: 30%;
+}
+
+.titulo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.texto {
+  font-size: 20px;
+}
+
+.morefamtitle {
+  display: flex;
+}
+
+.morefam1 {
+  width: 32%;
+  height: 2px;
+  border: 0;
+}
+
+.morefam1 hr {
+  border: solid #f189b1 3px;
+  opacity: 1;
+}
+
+.morefam2 {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.morefam3 {
+  width: 32%;
+  height: 2px;
+  border: 0;
+}
+
+.morefam3 hr {
+  border: solid black 3px;
+  opacity: 1;
+}
+
+.morefamimg {
+  text-align: center;
+  padding: 5%;
+}
+
+.skincareimg img {
+  width: 100%;
+}
+
+.skincaretitle {
+  display: flex;
+  margin: 5vh 0;
+}
+
+.skincare1 {
+  margin-top: 20px;
+  width: 70%;
+  height: 2px;
+  border: solid black 3px;
+  opacity: 1;
+}
+
+.skincare2 {
+  width: 20%;
+  margin: auto;
+}
+
+.skincareimgs {
+  display: block;
+  padding: 0 10%;
+}
+
+.skincareimgs img {
+  margin: 3vh auto;
+  width: 50vh;
+  height: 30vh;
+  display: block;
+}
+
+.formula img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  display: block;
+  background-color: black;
+}
+
+.foot1 {
+  height: 90%;
+  display: flex;
+}
+
+.izq {
+  padding: 5%;
+  width: 50%;
+  display: block;
+  text-align: center;
+}
+
+.izq img,
+.izq h1 {
+  margin: 1vh auto;
+  color: white;
+}
+
+.pays img {
+  margin: 1vh 2vh;
+}
+
+.der {
+  color: white;
+  padding: 5%;
+  width: 50%;
+  display: block;
+  text-align: center;
+}
+
+.foot2 {
+  height: 10%;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}

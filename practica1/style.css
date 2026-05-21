@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Slab&display=swap');
+
+body {
+    background-color: #ec0;
+}
+
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.title {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
+    padding: 30px 30px;
+    background-color: #f5f5f5;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+}
+
+.container_left {
+    width: 50%;
+}
+
+.container_left h1 {
+    font-size: 48px;
+}
+
+.container_left h2 {
+    font-size: 30px;
+    color: #444;
+}
+
+.container_left p {
+    font-size: 18px;
+    margin: 5% 0;
+}
+
+.container_left img {
+    height: auto;
+    width: 750px;
+}
+
+.container_right {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.container_right h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.container_right hr {
+    height: 5px;
+    background-color: #777;
+}
+
+.news {
+    display: block;
+    border-style: dotted;
+}
+
+.news_img {
+    display: inline-flex;;
+    width: 25%;
+    align-items: center;
+}
+
+.news_img img{
+    margin: 10%;
+    width: 130px;
+    height: auto;
+    border-radius: 360%;
+}
+
+.news_content {
+    display: flex;
+}
+
+.news_new {
+    
+    margin: 0 15px;
+    width: 20%;
+}
+
+
+.news_new p {
+    padding: 5%;
+    margin: 0;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.news h5 {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}

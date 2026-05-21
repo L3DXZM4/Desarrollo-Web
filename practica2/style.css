@@ -1,0 +1,79 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+.content {
+    background-color: #eee;
+    display: block;
+    margin: 15px;
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    padding: 0 3%;
+    font-size: 150px;
+}
+
+.description {
+
+    margin: 0 20%;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.menu {
+
+    margin: 0 0 0 5%;
+}
+
+.menu p {
+    display: inline-block;
+    padding: 0 10%;
+}
+
+.subcontent {
+    display: flex;
+    text-align: center;
+}
+
+.left {
+    width: 65%;
+}
+
+.right {
+    padding: 2%;
+    display: block;
+    width: 35%;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.news {
+    background-color: #ccc;
+}
+
+.newstitle {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.right h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.newscontent {
+    text-align: justify;
+}
+
+.hr1 {
+    color: black;
+    font-size: 48px;
+}

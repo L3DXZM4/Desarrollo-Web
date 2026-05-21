@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+
+  --colorprimario: #ef5036;
+  --colorsecundario: #282829;
+  --colorterciario: #808080;
+}
+
+.fondo {
+  background-color: var(--colorsecundario);
+}
+
+.letra {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu {
+  background-color: var(--colorsecundario);
+}
+
+.menu a {
+  color: white;
+}
+
+.menu a:hover {
+  color: var(--colorterciario);
+}
+
+.navbar .navbar-toggler {
+  border-color: var(--colorprimario);
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(239, 80, 54)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.carousel-inner .carousel-caption {
+  height: 50vh;
+}
+
+.carousel-inner {
+  text-align: center;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: 100vh;
+  aspect-ratio: 4/3;
+}
+
+.carousel-caption .carousel-title {
+  font-size: 50px;
+  color: white;
+}
+
+.carousel-caption .carousel-subtitle {
+  margin: 5vh auto;
+  font-size: 32px;
+  color: white;
+  width: 35vh;
+}
+
+.carousel-inner .masinfo {
+  background-color: var(--colorsecundario);
+  color: var(--colorterciario);
+  border-radius: 25px;
+  margin-right: 2%;
+}
+
+.carousel-inner .comprar {
+  background-color: var(--colorsecundario);
+  color: var(--colorprimario);
+  border-radius: 25px;
+  width: auto;
+}
+
+.carousel-inner .btn {
+  padding: 1%;
+}
+
+.carousel-inner .btn:hover {
+  transform: scale(1.1);
+  background-color: var(--colorsecundario);
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.productos {
+  background-color: var(--colorsecundario);
+  text-align: center;
+  padding: 3%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.productos img {
+  display: block;
+  width: 50vh;
+  height: auto;
+  margin: 5vh auto;
+}
+
+.prodtitu {
+  width: 100%;
+  text-align: center;
+  padding: 5vh;
+  margin: 2vh 0;
+  background-color: var(--colorprimario);
+  font-size: 3em;
+  text-align: center;
+}
+
+.productos .card {
+  margin: 2vh auto;
+  overflow: hidden;
+}
+
+.productos .card img {
+  aspect-ratio: 1/1;
+  width: 256px;
+  border-radius: 5px;
+}
+
+.productos .card {
+  border: solid var(--colorprimario) 3px;
+}
+
+.productos .card-body {
+  border-top: solid var(--colorprimario) 3px;
+}
+
+.secproductos .productos .card .btn:hover {
+  transform: scale(1.1);
+}
+
+/*Celular*/
+
+@media (max-width: 1000px) {
+  .carousel-inner .carousel-item {
+    width: 1250px;
+  }
+
+  .productos {
+    display: block;
+  }
+
+  .navbar {
+    height: 3vh;
+  }
+
+  .navbar .container-fluid {
+    background-color: var(--colorsecundario);
+  }
+
+  .navbar-toggler {
+    transform: scale(0.8);
+    margin: 0;
+  }
+
+  .navbar-brand {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 830px) {
+  .carousel-inner .carousel-item {
+    width: 830px;
+    height: auto;
+  }
+
+  .navbar {
+    height: 3vh;
+  }
+
+  .navbar-toggler {
+    transform: scale(0.8);
+    margin: 0;
+  }
+
+  .navbar-brand {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel-caption:not(.comprar, .masinfo) {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-height: 1000px) {
+  .carousel-title {
+    font-size: 32px;
+    margin: 0;
+  }
+  .carousel-subtitle {
+    font-size: 16px;
+    margin: 0;
+    width: 1000vh;
+  }
+
+  .carousel-inner .carousel-caption {
+    height: 75vh;
+    margin: 0;
+  }
+}
+
+form {
+  margin: 15% 0;
+  width: 60vh;
+  height: 80vh;
+  background-color: var(--colorprimario);
+  padding: 3%;
+  border: solid var(--colorsecundario) 3px;
+  border-radius: 15px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+form input {
+  height: 5vh;
+  width: 30vh;
+  margin: 2vh auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+form .sugerencia {
+  height: 10vh;
+}
+
+form button {
+  display: block;
+  margin: 1vh auto;
+  height: 5vh;
+  width: 15vh;
+  border: solid var(--colorsecundario) 3px;
+  border-radius: 15px;
+  background-color: var(--colorsecundario);
+  color: var(--colorprimario);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+  margin-top: 5vh;
+
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.modalform {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.modal-dialog {
+  border: solid var(--colorsecundario) 3px;
+}
+
+.modal div {
+  background-color: var(--colorprimario);
+  border-radius: 15px;
+}
+
+.btn-close {
+  display: inline-block;
+}

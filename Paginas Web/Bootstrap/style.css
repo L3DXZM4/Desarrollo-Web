@@ -1,0 +1,267 @@
+/*default*/
+:root {
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Tauri&display=swap");
+
+@keyframes hover_navbar-text {
+  0% {
+    border-bottom: solid gray 0px;
+  }
+
+  100% {
+    border-bottom: solid gray 3px;
+  }
+}
+
+body {
+  font-family: "Tauri", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+.divisor {
+  background-color: black;
+  height: 5px;
+  margin: 3% 0;
+}
+
+.nodeco {
+  text-decoration: none;
+}
+
+.reddeco {
+  text-decoration-color: red;
+}
+
+.redcolor {
+  color: red;
+}
+
+/*default end*/
+
+/*Gotop*/
+.gotop {
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 119, 255);
+  border: solid white 2px;
+  border-radius: 90%;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 92px;
+  cursor: pointer;
+  font-size: 28px;
+
+  rotate: -90deg;
+}
+
+/*Gotop end*/
+
+/*navbar*/
+.navbar {
+  background-color: white !important;
+  border: solid black 3px;
+}
+
+.maincode_text {
+  font-size: 24px !important;
+  font-size: 24px !important;
+  color: black !important;
+}
+
+.maincode_text:hover {
+  color: gray !important;
+  padding-bottom: 2px;
+  animation: hover_navbar-text 0.1s ease-in-out;
+  border-bottom: solid gray 3px;
+}
+
+.navbar-brand {
+  padding-left: 80px;
+  font-size: 32px !important;
+  color: black !important;
+}
+
+.dropdown-menu {
+  background-color: black !important;
+  color: gray !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  font-size: 32px;
+  transition: 1.2 ease !important;
+}
+
+.dropdown-item:hover {
+  color: white !important;
+  background-color: gray !important;
+  border-bottom: solid white 2px;
+}
+
+.navbar-nav {
+  padding-right: 80px;
+}
+
+/*navbar end*/
+
+/*carousel*/
+.carousel {
+  width: 100%;
+  height: 975px;
+  z-index: 1;
+  text-align: center;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.carousel-caption .carousel-title {
+  font-size: 50px;
+  color: black !important;
+}
+
+.carousel-caption .carousel-subtitle {
+  font-size: 32px;
+  color: black !important;
+}
+
+.carousel-indicators button {
+  background-color: black !important;
+}
+
+/*carousel end*/
+
+/*container*/
+.maincode_container {
+  background-color: rgb(236, 236, 236);
+  margin: 0 1%;
+  padding-bottom: 3%;
+  display: block;
+  left: 40px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container-div {
+  padding: 2% 0;
+}
+
+.maincode_card-title {
+  text-align: center;
+  padding: 2% 0;
+}
+
+/*container end*/
+
+/*cards*/
+.maincode_card-mode-1 {
+  width: 15rem;
+  height: 15rem;
+  padding: 2%;
+  border: solid black 3px;
+  margin: 0 2%;
+}
+
+.maincode_card-mode-1 img {
+  height: 480px;
+  align-self: center;
+  text-align: center;
+  margin-bottom: 5%;
+  border: solid black 2px;
+  overflow: hidden;
+}
+
+.maincode_card-mode-1 .card-title {
+  font-size: 32px;
+}
+
+.maincode_card-mode-1 .card-text {
+  font-size: 24px;
+}
+
+.maincode_card-mode-2 {
+  position: fixed;
+  left: 32%;
+  border: solid black 3px;
+  margin: 0 2%;
+}
+
+.maincode_card-mode-2 img {
+  padding-top: 7px;
+  padding-left: 7px;
+  margin-bottom: 7px;
+  border-radius: 20px !important;
+}
+
+.maincode_card-mode-2 .card-title {
+  font-size: 24px;
+}
+
+.maincode_card-mode-2 .card-text {
+  font-size: 20px;
+}
+
+/*cards end*/
+
+/*accordion*/
+.accordion button {
+  font-size: 32px;
+}
+/*accordion end*/
+
+/*form*/
+.sendform .maincode_card-title {
+  text-align: left;
+  padding: 0;
+  padding-top: 2%;
+  padding-left: 2%;
+  margin: 0;
+}
+
+.maincode_form-text-decoration {
+  width: 375px;
+  margin-left: 1%;
+  border: solid 2px;
+}
+
+.form-floating {
+  margin: 1%;
+  padding: 3%;
+}
+/*form end*/
+
+/*footer*/
+.maincode_footer {
+  background-color: rgb(100, 100, 100);
+  height: 300px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.maincode_footer h1 {
+  padding-top: 7%;
+  color: white;
+}
+/*footer end*/
